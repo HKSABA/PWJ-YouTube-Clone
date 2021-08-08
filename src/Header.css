@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: lightgray;
+  background-image: url(https://media.giphy.com/media/1xmm0jsVFYxdDYRzCB/giphy.gif);
+}
+
+.header__left {
+  align-items: center;
+}
+
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 1px;
+}
+
+.candy__image {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.snowball__image {
+  height: 28px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.header__input > input {
+  outline: none;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  margin-right: 8px;
+}
+
+.header__inputButton {
+  width: 50px !important;
+  background-color: smokewhite;
+  border-left: 1px solid rgb(204, 204, 204);
+  color: gray;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+  background-color: white;
+}
